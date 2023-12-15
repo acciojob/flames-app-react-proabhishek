@@ -42,13 +42,13 @@ const App = ()=> {
             <div id="main">
 
                 <form>
-                     <input type="text" data-testid="input1" placeholder="Enter First Name" 
+                     <input type="text" data-testid="input1" placeholder="Enter First Name" name="name1"
                         onChange={(e)=>setName1(e.target.value)} 
                         value={name1}
                         
                      />
-                     <input type="text" data-testid="input2" placeholder="Enter Second Name" 
-                        onChange={(e)=>setName2(e.target.value)}
+                     <input type="text" data-testid="input2" placeholder="Enter Second Name"  name="name2"
+                        onChange={(e)=>setName2(e.target.value)} 
                         value={name2}
                         
                      />
